@@ -7,28 +7,28 @@ import Overview from './components/Overview';
 
 const cardListData = [
   {
-    userName: '@pepito',
-    followers: '1486',
+    userName: '@thelilapson',
+    followers: '1496',
     todayFollowers: 122,
     icon: "images/facebook.png",
     name: 'facebook'
   },
   {
-    userName: '@luisa',
+    userName: '@thelilapson',
     followers: '28540',
     todayFollowers: 240,
     icon: "images/twitter.png",
     name: 'twitter'
   },
   {
-    userName: '@osvaldo',
+    userName: '@thelilapson',
     followers: '4550',
     todayFollowers: 310,
     icon: "images/instagram.png",
     name: 'instagram'
   },
   {
-    userName: '@jose',
+    userName: '@thelilapson',
     followers: '4140',
     todayFollowers: -50,
     icon: "images/youtube.png",
