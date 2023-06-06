@@ -5,6 +5,13 @@ function Switch(){
     const [checked, setChecked] = useState(false)
 
     const ref = useRef(null)
+
+    /**
+     * Handles the change event of a checkbox, updating the state of the component
+     * and changing the visual theme of the website.
+     *
+     * @return {void} Does not return anything
+     */
     function handleChange () {
       console.log(ref.current.checked)
       setChecked(ref.current.checked)
@@ -17,16 +24,11 @@ function Switch(){
       }
     }
 
-
-
     useEffect(() => {
       if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
         setChecked(true)
       }
     }, [])
-
-  
-
 
     return (
         <div className="dark-mode">

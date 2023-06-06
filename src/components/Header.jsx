@@ -3,10 +3,12 @@ import '../styles/header.css'
 import './Switch'
 
 function Header({ children, cardListData }) {
+  
   const totalFollowers = cardListData.reduce(
     (total, cardData) => total + parseInt(cardData.followers),
     0
   );
+
   return (
     <header className="header" >
       <div className="wrapper">

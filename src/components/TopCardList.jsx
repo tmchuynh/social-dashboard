@@ -3,8 +3,6 @@ import Card from './Card';
 import '../styles/card.css';
 import { generate as id } from 'shortid';
 
-
-
 function TopCardList({cardListData}) {
   return (
     <section className="top-card">
